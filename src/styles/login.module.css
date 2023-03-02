@@ -1,0 +1,95 @@
+.bgimage{
+    background-color: white;
+    height: 100vh;
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagepart{
+    height: 45vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #35498e;
+}
+
+.labelname{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.formpart{
+    background-color: white;
+    height: 55vh;
+    border-radius: 36px;
+    margin-top: -29px;
+}
+
+.phonenumber{
+    padding: 35px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phonelabel{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.phonefield{
+    border-radius: 36px;
+    padding: 8px;
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid silver;
+}
+.password{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordlabel{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.passwordfield{
+    border-radius: 36px;
+    padding: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.loginbutton{
+    padding: 15px 15px;
+}
+
+.button{
+    width: 100%;
+    background-color: #35498e;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 36px;
+    font-weight: 500;
+}
+
+.regpart{
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #35498e;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+/* input[type=password]{
+    border: 1px solid silver;
+} */

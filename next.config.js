@@ -4,3 +4,16 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  distDir: 'build',
+  devIndicators: {
+      buildActivity: false
+  },
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
+}
+
+

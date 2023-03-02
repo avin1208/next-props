@@ -1,0 +1,117 @@
+.typePage {
+    padding: 15px;
+    height: 100vh;
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upperPart{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addLabel{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.addButton{
+    padding: 15px 15px;
+}
+
+.button{
+    width: 100%;
+    background-color: #35498e;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 36px;
+    font-weight: 500;
+}
+
+.typeDataPart{
+    padding: 0px 10px 0px 10px;
+}
+
+.typeDataBorder{
+    border: 0.5px solid black;
+    display: flex;
+    padding: 6px;
+    height: 25px;
+    width: 95%;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.typeNameLabel{
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+
+.typeIconPart{
+    justify-content: flex-end;
+    display: flex;
+    gap: 7px;
+    width: 50%;
+}
+
+.deleteIconType{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.editIconType{
+    background-color: #35498e;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.modalContent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteHead{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.deleteText{
+    font-size: 12px;
+}
+
+.buttonPart{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.yesButton{
+    background-color: #35498e;
+    border: none;
+    border-radius: 36px;
+    padding: 8px;
+    width: 100px;
+    color: white;
+}
+
+.noButton{
+    background-color: red;
+    border: none;
+    border-radius: 36px;
+    padding: 8px;
+    width: 100px;
+    color: white;
+}

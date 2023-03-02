@@ -1,0 +1,159 @@
+.bgImage{
+    background-color: white;
+    height: 100vh;
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagePart{
+    height: 45vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #35498e;
+}
+
+.labelName{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.formPart{
+    background-color: white;
+    height: 55vh;
+    border-radius: 36px;
+    margin-top: -29px;
+}
+
+.phoneNumber{
+    padding: 35px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phoneLabel{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.phonePart{
+    position: relative;
+    width: 100%;
+}
+
+.phoneField{
+    border-radius: 36px;
+    padding: 8px;
+    outline: none;
+    width: 95%;
+    margin-top: 10px;
+    border: 1px solid silver;
+}
+
+.otpButton{
+    position: absolute;
+    right: 4px;
+    top: 13px;
+    width: 95px;
+    padding: 6.5px;
+    background-color: #35498e;
+    color: white;
+    border: none;
+    border-radius: 36px;
+    font-size: 12px;
+}
+
+.otp{
+    padding: 0px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.otpLabel{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.otpField{
+    border-radius: 36px;
+    padding: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.password{
+    padding: 0px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordLabel{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.passwordField{
+    border-radius: 36px;
+    padding: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.name{
+    padding: 0px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameLabel{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nameField{
+    border-radius: 36px;
+    padding: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.email{
+    padding: 0px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailLabel{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.emailField{
+    border-radius: 36px;
+    padding: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.registerButton{
+    padding: 15px 15px;
+}
+
+.button{
+    width: 100%;
+    background-color: #35498e;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 36px;
+    font-weight: 500;
+}

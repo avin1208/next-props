@@ -1,0 +1,72 @@
+.adminPage{
+    padding: 15px;
+    height: 100vh;
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upperPart{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addLabel{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.adminPhoneNumber{
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adminPhoneLabel{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.adminPhoneField{
+    border-radius: 36px;
+    padding: 8px;
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid silver;
+}
+
+.adminName{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adminNameLabel{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.adminNameField{
+    border-radius: 36px;
+    padding: 8px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.adminSubmitButton{
+    padding: 20px 15px;
+}
+
+.button{
+    width: 100%;
+    background-color: #35498e;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 36px;
+    font-weight: 500;
+}

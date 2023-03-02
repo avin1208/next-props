@@ -1,0 +1,126 @@
+.adminDataPage {
+    padding: 15px;
+    height: 100vh;
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upperPart {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addLabel {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.addButton {
+    padding: 15px 15px;
+}
+
+.button {
+    width: 100%;
+    background-color: #35498e;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 36px;
+    font-weight: 500;
+}
+
+.table {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.th {
+    color: white;
+    font-size: 14px !important;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 14px;
+    width: 33%;
+    height: 30px;
+    background-color: #35498e;
+} 
+
+.iconPart {
+    justify-content: flex-end;
+    display: flex;
+    gap: 7px;
+    width: 100%;
+}
+
+.deleteIconAdmin {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.editIconAdmin {
+    background-color: #35498e;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.table .tr:nth-child(odd) td {
+    background-color: #fee9ee;
+    font-size: 14px;
+    height: 30px;
+}
+
+.table .tr:nth-child(even) td {
+    background-color: white;
+    font-size: 14px;
+    height: 30px;
+}
+
+.modalContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteHead {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.deleteText {
+    font-size: 12px;
+}
+
+.buttonPart {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.yesButton {
+    background-color: #35498e;
+    border: none;
+    border-radius: 36px;
+    padding: 8px;
+    width: 100px;
+    color: white;
+}
+
+.noButton {
+    background-color: red;
+    border: none;
+    border-radius: 36px;
+    padding: 8px;
+    width: 100px;
+    color: white;
+}

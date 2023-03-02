@@ -1,0 +1,53 @@
+.typeAddPage {
+    padding: 15px;
+    height: 100vh;
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upperPart{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addLabel{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.typeName{
+    padding: 25px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.typeNameLabel{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.typeNameField{
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 10px;
+    height: 55px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.typeSubmitButton{
+    padding: 20px 15px;
+}
+
+.button{
+    width: 100%;
+    background-color: #35498e;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 36px;
+    font-weight: 500;
+}
